@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Provia Website</h1>
+    <main className="min-h-screen">
+      <h1>Provia</h1>
     </main>
   );
 }
