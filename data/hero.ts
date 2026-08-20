@@ -1,18 +1,13 @@
-export const hero = {
+export const heroData = {
   badge: "PROVIA GROUP",
 
   title: "Building Tomorrow's Infrastructure",
 
-  description:
-    "Government Infrastructure • Educational Technology • Digital Infrastructure • Turnkey Project Execution",
+  subtitle:
+    "Integrated infrastructure and technology delivery for public institutions, education, and the communities they serve.",
 
   primaryButton: {
     text: "Explore Projects",
-    href: "#projects",
-  },
-
-  secondaryButton: {
-    text: "Contact Us",
-    href: "#contact",
+    link: "/projects",
   },
 };

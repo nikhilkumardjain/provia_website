@@ -15,15 +15,17 @@ export default function Button({
 }: ButtonProps) {
   const variants = {
     primary:
-      "bg-[#C8A04A] text-white hover:bg-[#B8913F] shadow-md hover:shadow-lg",
+      "bg-[#C8A04A] text-white hover:bg-[#B89337] shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+
     secondary:
-      "border border-slate-300 bg-white text-slate-900 hover:bg-slate-100",
+      "border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 hover:border-[#C8A04A]",
   };
 
   return (
     <button
       className={cn(
-        "inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm font-semibold transition-all duration-300",
+        "inline-flex items-center justify-center rounded-xl px-7 py-3.5 text-sm font-semibold transition-all duration-300",
+        "focus:outline-none focus:ring-2 focus:ring-[#C8A04A]/40",
         variants[variant],
         className
       )}
